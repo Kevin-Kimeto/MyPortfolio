@@ -60,13 +60,13 @@ const Experience = () => {
         },
     ];
     return (
-        <div className="bg-gradient-to-b from-gray-800 to-black w-full md:h-screen h-auto md:pt-16 pt-1">
+        <div className="bg-gray-800 w-full md:h-screen h-auto md:pt-16 pt-1">
             <div className="max-w-screen-lg mx-auto p-3 flex flex-col justify-center w-full h-full text-white">
                 <div className="md:text-start text-center">
                     <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
                     Experience
                     </p>
-                    <p className="py-8">The technologies I've worked with:</p>
+                    <p className="pt-8 pb-4">The technologies I've worked with:</p>
                 </div>
                 <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-2 px-12 sm:px-0">
                     {techs.map(({ id, src, title, style }) => (

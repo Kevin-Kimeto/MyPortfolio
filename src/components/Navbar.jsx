@@ -19,8 +19,8 @@ const Navbar = () => {
             </ul>
             <div className='flex gap-6 items-center text-xl cursor-pointer'>
                 <a href='https://github.com/Kevin-Kimeto' className='hover:text-gray-400'><FaGithub /></a>
-                <a href='#' className='hover:text-gray-400'><FaInstagram /></a>
-                <a href='#' className='hover:text-gray-400'><FaTwitter /></a>
+                <a href='https://instagram.com/_k_e_v__' className='hover:text-gray-400'><FaInstagram /></a>
+                <a href='https://twitter.com/official_Kev__' className='hover:text-gray-400'><FaTwitter /></a>
             </div>
         </div>
         <div

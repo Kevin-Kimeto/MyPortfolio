@@ -7,33 +7,21 @@ import Proj6 from "../assets/s6.png";
 
 export const ProjectList = [
     {
-        name: "Sneakers",
+        name: "Construction Website",
+        image: Proj4,
+        skills: "Html, Css, JavaScript",
+        link: "https://shelcom.vercel.app",
+    },
+    {
+        name: "Ecommerce Site",
         image: Proj1,
         skills: "Html, Css, JavaScript",
+        link: "#",
     },
     {
-        name: "2",
+        name: "NFT Preview Card",
         image: Proj2,
-        skills: "",
-    },
-    {
-        name: "3",
-        image: Proj3,
-        skills: "",
-    },
-    {
-        name: "4",
-        image: Proj4,
-        skills: "",
-    },
-    {
-        name: "5",
-        image: Proj5,
-        skills: "",
-    },
-    {
-        name: "6",
-        image: Proj6,
-        skills: "",
+        skills: "Html, Css, JavaScript",
+        link: "#",
     },
 ];

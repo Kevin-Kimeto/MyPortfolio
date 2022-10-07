@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import Projects from './pages/Projects';
 import ProjectDisplay from './pages/ProjectDisplay';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/blog' element={<Blog />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   )
 }
