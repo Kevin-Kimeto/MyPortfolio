@@ -7,7 +7,7 @@ import Skills from '../components/Skills';
 const Home = () => {
   return (
     <>
-      <div className='md:px-40 px-8 md:mt-16 mt-18 pt-20 md:h-[90vh] h-screen bg-gradient-to-b from-zinc-700 to-zinc-400'>
+      <div className='md:px-40 px-8 md:mt-16 mt-18 md:pt-20 pt-28 md:h-[90vh] h-screen bg-gradient-to-b from-zinc-700 to-zinc-400'>
         <div className='flex flex-col w-full md:gap-8 gap-4 items-center'>
           <h1 className='text-gray-300 text-lg'>Hello There!</h1>
           <h1 className='text-white font-bold md:text-7xl text-4xl font-signature'>I<span className='text-zinc-900'>'</span>m Kevin Kimeto</h1>
