@@ -1,4 +1,4 @@
-export default Nav = [
+export const Nav = [
     {
         id: "0",
         title: "home"
@@ -11,4 +11,4 @@ export default Nav = [
         id: "2",
         title: "contact"
     }
-] 
+];
