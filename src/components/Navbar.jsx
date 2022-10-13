@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='fixed top-0 left-0 right-0 flex justify-between items-center md:h-[11vh] h-[9vh] md:px-40 px-4 bg-zinc-900 text-white'>
         <div>
-            <h1 className='text-5xl font-signature'>Kev</h1>
+            <button className='text-5xl font-signature'><Link to='/'>Kev</Link></button>
         </div>
         <div className='hidden md:flex justify-between gap-16'>
             <ul className='flex gap-12 text-xl justify-between items-center cursor-pointer list-none'>

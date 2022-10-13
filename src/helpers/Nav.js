@@ -10,5 +10,5 @@ export const Nav = [
     {
         id: "2",
         title: "contact"
-    }
+    },
 ];
