@@ -44,7 +44,7 @@ const Contact = () => {
                         type='text'
                         name='message'
                         placeholder='Enter Message'
-                        className='w-full h-20 bg-slate-300 rounded-lg mb-2 px-2 focus:outline-none'
+                        className='w-full h-20 bg-slate-300 rounded-lg mb-2 px-2 focus:outline-none z-10'
                     ></textarea>
                 </div>
                 <button
