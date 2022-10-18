@@ -18,7 +18,7 @@ const Contact = () => {
             <form 
                 action='https://getform.io/f/981a5e12-5758-45fd-9590-e03aaa070208'
                 method='POST'
-                className='flex flex-col justify-between md:w-1/2 md:h-4/5 bg-slate-100 px-3 py-3 rounded-xl md:self-end'
+                className='flex flex-col justify-between md:w-1/2 md:h-4/5 h-auto bg-slate-100 px-3 py-3 rounded-xl md:self-end'
             >
                 <div>
                     <h3 className='text-[18px] font-semibold'>Name</h3>
@@ -44,7 +44,7 @@ const Contact = () => {
                         type='text'
                         name='message'
                         placeholder='Enter Message'
-                        className='w-full h-20 bg-slate-300 rounded-lg mb-2 px-2 focus:outline-none z-10'
+                        className='w-full md:h-20 bg-slate-300 rounded-lg mb-2 px-2 focus:outline-none z-10'
                     ></textarea>
                 </div>
                 <button
